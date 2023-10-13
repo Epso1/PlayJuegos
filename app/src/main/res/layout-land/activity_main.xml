@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="630dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:translationX="100dp"
+    android:translationY="120dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Play Juegos"
+        android:textAlignment="center"
+        android:textColor="#636363"
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CDCDCD"
+            android:text="PLAY"
+            android:textColor="#000000"
+            app:cornerRadius="0dp"
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CDCDCD"
+            android:text="NEW PLAYER"
+            android:textColor="#000000"
+            app:cornerRadius="0dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CDCDCD"
+            android:text="PREFERENCES"
+            android:textColor="#000000"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#CDCDCD"
+            android:text="ABOUT"
+            android:textColor="#000000"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
